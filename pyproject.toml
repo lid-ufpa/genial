@@ -1,0 +1,34 @@
+[project]
+name = "genial"
+version = "0.1.0"
+description = "Conteúdo do curso Genetic and Evolutionary Nature-Inspired ALgorithms do LID-UFPA."
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "matplotlib>=3.10.6",
+]
+
+[tool.ruff]
+indent-width = 4
+line-length = 100
+select = [
+  "ALL",
+]
+ignore = [
+  "D100",
+  "D101",
+  "D102",
+  "D103",
+  "D107",
+  "I001",
+  "T201",
+  "E501",
+  "PLR0913"
+]
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
+line-ending = "lf"
+docstring-code-format = true
+docstring-code-line-length = 100
