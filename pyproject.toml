@@ -3,9 +3,13 @@ name = "genial"
 version = "0.1.0"
 description = "Conteúdo do curso Genetic and Evolutionary Nature-Inspired ALgorithms do LID-UFPA."
 readme = "README.md"
-requires-python = ">=3.13"
+requires-python = ">=3.11"
 dependencies = [
     "matplotlib>=3.10.6",
+    "mealpy (>=3.0.3,<4.0.0)",
+    "scikit-learn (>=1.7.2,<2.0.0)",
+    "ipykernel (>=6.30.1,<7.0.0)",
+    "pyomo (>=6.9.4,<7.0.0)",
 ]
 
 [tool.ruff]
