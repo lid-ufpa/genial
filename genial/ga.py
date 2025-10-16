@@ -1,32 +1,38 @@
-import random
 import numpy as np
-from typing import List, Tuple
+import random
+import time 
+import tracemalloc
+from typing import List, Dict, Tuple
 
 class GeneticAlgorithm():
+    """Implementação do algoritmo genético para o problema da mochila"""
+
     def __init__(
         self, 
         weights:List[int], 
         vals:List[int], 
         max_weight:float, 
-        generations:int, 
         population_size:int, 
-        mutation_rate:float
+        mutation_rate:float,
+        generations:int
     ) -> None:
 
+        # Hiperparâmetros do algoritmo
         self.weights = weights
         self.vals = vals
         self.max_weight = max_weight
-        self.generations = generations
         self.population_size = population_size
         self.mutation_rate = mutation_rate
+        self.generations = generations
 
+        # Melhor solução
         self.gbest_fitness = -float('inf')
         self.gbest_individual = float()
 
-        self.gbest_individual_history = List[List]
-        self.gbest_fitness_history = List[float]
+        # Dicionário contendo algumas métricas, como o desvio padrão e a média
+        self.metrics = Dict
 
-    def _create_population(self, population_size) -> List:
+    def _create_population(self, population_size:int) -> List:
         population = np.array([[random.randint(0, 1) for _ in range(len(self.vals))] for _ in range(population_size)])
         
         return population
@@ -34,19 +40,16 @@ class GeneticAlgorithm():
     def _get_fitness(self, individual:List) -> float:
         total_weight = 0
         total_vals = 0
-        p = -float('inf')
 
         for gene, v, w in zip(individual, self.vals, self.weights): 
             
             total_vals += gene * v
             total_weight += gene * w
-            if v / w > p:
-                p = v / w
 
         if total_weight <= self.max_weight:
             fitness = total_vals - 0
         else:
-            pen = 10 * p * (total_weight - self.max_weight) 
+            pen = 10 * (total_weight - self.max_weight) 
             fitness = total_vals - pen     
         
         return fitness
@@ -84,20 +87,43 @@ class GeneticAlgorithm():
     def execution(self) -> Tuple[List, float]:
         population = self._create_population(self.population_size)
 
-        for generation in range(self.generations):
-            self.population_history.append(population)
+        metrics = {
+            'time': [],
+            'memory peak': [],
+            'mean': [],
+            'standard deviation': [],
+            'worst fitness': [],
+            'best fitness': [],
+        }
 
-            fitnesses = np.array([self._get_fitness(individual) for individual in population])
+        for generation in range(self.generations):
+            
+            tracemalloc.start()
+            start = time.time()
+
+            initial_memory, initial_peak = tracemalloc.get_traced_memory()
+
+            fitnesses = np.array([self._get_fitness(individual) for individual 
+            in population])
+            
+            mean = np.sum(fitnesses) / len(fitnesses)
+            standard_deviation = np.sqrt((np.sum((fitnesses - mean) ** 2)) / len(fitnesses))
+
+            metrics['mean'].append(mean)
+            metrics['standard deviation'].append(standard_deviation)
 
             best_individual = max(population, key=self._get_fitness)
             best_fitness = self._get_fitness(best_individual)
 
+            worst_individual = min(population, key=self._get_fitness)
+            worst_fitness = self._get_fitness(worst_individual)
+            
+            metrics['best fitness'].append(best_fitness)
+            metrics['worst fitness'].append(worst_fitness)
+
             if best_fitness > self.gbest_fitness:
                 self.gbest_fitness = best_fitness
                 self.gbest_individual = best_individual
-
-            self.gbest_individual_history.append(self.gbest_individual)
-            self.gbest_fitness_history.append(self.gbest_fitness)
             
             population = self._selection(population, fitnesses)
 
@@ -114,5 +140,15 @@ class GeneticAlgorithm():
             
             next_population[0] = best_individual
             population = np.array(next_population)
+
+            final_memory, final_peak = tracemalloc.get_traced_memory()
+
+            end = time.time()
+            tracemalloc.stop()
+
+            metrics['time'].append(f'{(end - start):.2f}s')
+            metrics['memory peak'].append(f'{((final_peak - initial_peak) / 1024 ** 2):.2f}mb')
+
+        self.metrics = metrics
 
         return self.gbest_individual, self.gbest_fitness
