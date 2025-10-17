@@ -47,12 +47,9 @@ class GeneticAlgorithm():
             total_weight += gene * w
 
         if total_weight <= self.max_weight:
-            fitness = total_vals - 0
+            return total_vals
         else:
-            pen = 10 * (total_weight - self.max_weight) 
-            fitness = total_vals - pen     
-        
-        return fitness
+            return total_vals - 10 * (total_weight - self.max_weight)
     
     def _selection(self, population:List, fitnesses:List, tournament_size=2) -> List:
         selected = []
