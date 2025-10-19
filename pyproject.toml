@@ -10,6 +10,7 @@ dependencies = [
     "scikit-learn (>=1.7.2,<2.0.0)",
     "ipykernel (>=6.30.1,<7.0.0)",
     "pyomo (>=6.9.4,<7.0.0)",
+    "pandas>=2.3.3",
 ]
 
 [tool.ruff]
@@ -27,7 +28,8 @@ ignore = [
   "I001",
   "T201",
   "E501",
-  "PLR0913"
+  "PLR0913",
+  "S311"
 ]
 
 [tool.ruff.format]
