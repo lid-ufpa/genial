@@ -126,80 +126,89 @@ Como alternativa, consulte a documentação do GitHub em [como criar uma solicit
 
 Agradecemos às seguintes pessoas que contribuíram para este projeto:
 
-<div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center;">
+<table>
+  <tr>
+    <td align="center">
+      <a href="#" title="Helder Matos">
+        <img src="https://avatars.githubusercontent.com/u/17325561?v=4" width="100px;" alt="Foto do Helder Matos no GitHub"/><br>
+        <sub><b>Helder Matos</b></sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://lattes.cnpq.br/1659693816509187" title="Jean Carlos">
+        <img src="https://avatars.githubusercontent.com/u/73586340?v=4" width="100px;" alt="Foto do Jean Carlos no GitHub"/><br>
+        <sub><b>Jean Carlos</b></sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="#" title="Marcos Araujo">
+        <img src="https://avatars.githubusercontent.com/u/159856979?v=4" width="100px;" alt="Foto do Marcos Araujo no GitHub"/><br>
+        <sub><b>Marcos Araujo</b></sub>
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="#" title="Eduardo Kohei">
+        <img src="https://avatars.githubusercontent.com/u/133936439?v=4" width="100px;" alt="Foto do Eduardo Kohei no GitHub"/><br>
+        <sub><b>Eduardo Kohei</b></sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="#" title="Samara Souza">
+        <img src="https://avatars.githubusercontent.com/u/77058376?v=4" width="100px;" alt="Foto da Samara Souza no GitHub"/><br>
+        <sub><b>Samara Souza</b></sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="#" title="Maria Siqueira">
+        <img src="https://avatars.githubusercontent.com/u/208213340?v=4" width="100px;" alt="Foto da Maria Siqueira no GitHub"/><br>
+        <sub><b>Maria Siqueira</b></sub>
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="#" title="Vitor Cardoso">
+        <img src="https://avatars.githubusercontent.com/u/143220203?v=4" width="100px;" alt="Foto do Vitor Cardoso no GitHub"/><br>
+        <sub><b>Vitor Cardoso</b></sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="#" title="Aldrey Sandre">
+        <img src="https://avatars.githubusercontent.com/u/165036139?v=4" width="100px;" alt="Foto do Aldrey Sandre no GitHub"/><br>
+        <sub><b>Aldrey Sandre</b></sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="#" title="Jeojildo Pereira">
+        <img src="https://avatars.githubusercontent.com/u/132309605?v=4" width="100px;" alt="Foto do Jeojildo Pereira no GitHub"/><br>
+        <sub><b>Jeojildo Pereira</b></sub>
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="#" title="Marcos Vinicius">
+        <img src="https://avatars.githubusercontent.com/u/82077382?v=4" width="100px;" alt="Foto do Marcos Vinicius no GitHub"/><br>
+        <sub><b>Marcos Vinicius</b></sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="#" title="Emilly Caroline">
+        <img src="https://avatars.githubusercontent.com/u/93013035?v=4" width="100px;" alt="Foto da Emilly Caroline no GitHub"/><br>
+        <sub><b>Emilly Caroline</b></sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="#" title="Izaac Junior">
+        <img src="https://avatars.githubusercontent.com/u/213531460?v=4" width="100px;" alt="Foto do Izaac Junior no GitHub"/><br>
+        <sub><b>Izaac Junior</b></sub>
+      </a>
+    </td>
+  </tr>
+</table>
 
-  <a href="#" title="Foto de perfil do Helder" style="text-align: center; text-decoration: none; color: inherit;">
-    <img src="https://avatars.githubusercontent.com/u/17325561?v=4" width="100px" alt="Foto do Helder Matos"/><br>
-    <b>Helder Matos</b><br>
-    <b>Instrutor</b>
-  </a>
-
-  <a href="#" title="Foto do perfil de Jean Carlos" style="text-align: center; text-decoration: none; color: inherit;">
-    <img src="https://avatars.githubusercontent.com/u/73586340?v=4" width="100px" alt="Foto do Jean Carlos"/><br>
-    <b>Jean Carlos</b><br>
-    <b>Colaborador acadêmico</b>
-  </a>
-
-  <a href="#" title="Foto do perfil do Marcos Araujo" style="text-align: center; text-decoration: none; color: inherit;">
-    <img src="https://avatars.githubusercontent.com/u/159856979?v=4" width="100px" alt="Foto do Marcos Araujo"/><br>
-    <b>Marcos Araujo</b><br>
-    <b>Monitor</b>
-  </a>
-
-  <a href="#" title="Foto do perfil do Eduardo Kohei" style="text-align: center; text-decoration: none; color: inherit;">
-    <img src="https://avatars.githubusercontent.com/u/133936439?v=4" width="100px" alt="Foto do Eduardo Kohei"/><br>
-    <b>Eduardo Kohei</b><br>
-    <b>Monitor</b>
-  </a>
- 
-  <a href="#" title="Foto do perfil da Samara Souza" style="text-align: center; text-decoration: none; color: inherit;">
-    <img src="https://avatars.githubusercontent.com/u/77058376?v=4" width="100px" alt="Foto do Samara Souza"/><br>
-    <b>Samara Souza</b><br>
-    <b>Apoio técnico</b>
-  </a>
-
-  <a href="#" title="Foto do perfil da Maria Siqueira" style="text-align: center; text-decoration: none; color: inherit;">
-    <img src="https://avatars.githubusercontent.com/u/208213340?v=4" width="100px" alt="Foto do Maria Siqueira"/><br>
-    <b>Maria Siqueira</b><br>
-    <b>Apoio técnico</b>
-  </a>
-
-  <a href="#" title="Foto do perfil de Vitor Cardoso" style="text-align: center; text-decoration: none; color: inherit;">
-    <img src="https://avatars.githubusercontent.com/u/143220203?v=4" width="100px" alt="Foto do Vitor Cardoso"/><br>
-    <b>Vitor Cardoso</b><br>
-    <b>Apoio técnico</b>
-  </a>
-
-  <a href="#" title="Foto do perfil do Aldrey Sandre" style="text-align: center; text-decoration: none; color: inherit;">
-    <img src="https://avatars.githubusercontent.com/u/165036139?v=4" width="100px" alt="Foto do Aldrey Sandre"/><br>
-    <b>Aldrey Sandre</b><br>
-    <b>Apoio técnico</b>
-  </a>
-
-  <a href="#" title="Foto do perfil de Jeojildo Pereira" style="text-align: center; text-decoration: none; color: inherit;">
-    <img src="https://avatars.githubusercontent.com/u/132309605?v=4" width="100px" alt="Foto do Jeojildo Pereira"/><br>
-    <b>Jeojildo Pereira</b><br>
-    <b>Apoio técnico</b>
-  </a>
-
-  <a href="#" title="Foto do perfil do Marcos Vinicius" style="text-align: center; text-decoration: none; color: inherit;">
-    <img src="https://avatars.githubusercontent.com/u/82077382?v=4  " width="100px" alt="Foto do Marcos Vinicius"/><br>
-    <b>Marcos Vinicius</b><br>
-    <b>Apoio técnico</b>
-  </a>
-
-  <a href="#" title="Foto do perfil da Emilly Caroline" style="text-align: center; text-decoration: none; color: inherit;">
-    <img src="https://avatars.githubusercontent.com/u/93013035?v=4" width="100px" alt="Foto do Emilly Caroline"/><br>
-    <b>Emilly Caroline</b><br>
-    <b>Apoio técnico</b>
-  </a>
-
-  <a href="#" title="Foto do perfil do Izaac" style="text-align: center; text-decoration: none; color: inherit;">
-    <img src="https://avatars.githubusercontent.com/u/213531460?v=4" width="100px" alt="Foto do Izaac Junior"/><br>
-    <b>Izaac Junior</b><br>
-    <b>Apoio técnico</b>
-  </a>
-</div>
 
 
 ## 😄 Seja um dos contribuidores
