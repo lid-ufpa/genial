@@ -130,39 +130,37 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
   <tr>
     <td align="center">
       <a href="#" title="Helder Matos">
-        <img src="https://avatars.githubusercontent.com/u/17325561?v=4" width="100px;" alt="Foto do Helder Matos no GitHub"/><br>
+        <img src="https://avatars.githubusercontent.com/u/17325561?v=4" width="100px;" alt="Helder Matos"/><br>
         <sub><b>Helder Matos</b></sub>
       </a>
     </td>
     <td align="center">
       <a href="https://lattes.cnpq.br/1659693816509187" title="Jean Carlos">
-        <img src="https://avatars.githubusercontent.com/u/73586340?v=4" width="100px;" alt="Foto do Jean Carlos no GitHub"/><br>
+        <img src="https://avatars.githubusercontent.com/u/73586340?v=4" width="100px;" alt="Jean Carlos"/><br>
         <sub><b>Jean Carlos</b></sub>
       </a>
     </td>
     <td align="center">
       <a href="#" title="Marcos Araujo">
-        <img src="https://avatars.githubusercontent.com/u/159856979?v=4" width="100px;" alt="Foto do Marcos Araujo no GitHub"/><br>
+        <img src="https://avatars.githubusercontent.com/u/159856979?v=4" width="100px;" alt="Marcos Araujo"/><br>
         <sub><b>Marcos Araujo</b></sub>
       </a>
     </td>
-  </tr>
-  <tr>
     <td align="center">
       <a href="#" title="Eduardo Kohei">
-        <img src="https://avatars.githubusercontent.com/u/133936439?v=4" width="100px;" alt="Foto do Eduardo Kohei no GitHub"/><br>
+        <img src="https://avatars.githubusercontent.com/u/133936439?v=4" width="100px;" alt="Eduardo Kohei"/><br>
         <sub><b>Eduardo Kohei</b></sub>
       </a>
     </td>
     <td align="center">
       <a href="#" title="Samara Souza">
-        <img src="https://avatars.githubusercontent.com/u/77058376?v=4" width="100px;" alt="Foto da Samara Souza no GitHub"/><br>
+        <img src="https://avatars.githubusercontent.com/u/77058376?v=4" width="100px;" alt="Samara Souza"/><br>
         <sub><b>Samara Souza</b></sub>
       </a>
     </td>
     <td align="center">
       <a href="#" title="Maria Siqueira">
-        <img src="https://avatars.githubusercontent.com/u/208213340?v=4" width="100px;" alt="Foto da Maria Siqueira no GitHub"/><br>
+        <img src="https://avatars.githubusercontent.com/u/208213340?v=4" width="100px;" alt="Maria Siqueira"/><br>
         <sub><b>Maria Siqueira</b></sub>
       </a>
     </td>
@@ -170,44 +168,44 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
   <tr>
     <td align="center">
       <a href="#" title="Vitor Cardoso">
-        <img src="https://avatars.githubusercontent.com/u/143220203?v=4" width="100px;" alt="Foto do Vitor Cardoso no GitHub"/><br>
+        <img src="https://avatars.githubusercontent.com/u/143220203?v=4" width="100px;" alt="Vitor Cardoso"/><br>
         <sub><b>Vitor Cardoso</b></sub>
       </a>
     </td>
     <td align="center">
       <a href="#" title="Aldrey Sandre">
-        <img src="https://avatars.githubusercontent.com/u/165036139?v=4" width="100px;" alt="Foto do Aldrey Sandre no GitHub"/><br>
+        <img src="https://avatars.githubusercontent.com/u/165036139?v=4" width="100px;" alt="Aldrey Sandre"/><br>
         <sub><b>Aldrey Sandre</b></sub>
       </a>
     </td>
     <td align="center">
       <a href="#" title="Jeojildo Pereira">
-        <img src="https://avatars.githubusercontent.com/u/132309605?v=4" width="100px;" alt="Foto do Jeojildo Pereira no GitHub"/><br>
+        <img src="https://avatars.githubusercontent.com/u/132309605?v=4" width="100px;" alt="Jeojildo Pereira"/><br>
         <sub><b>Jeojildo Pereira</b></sub>
       </a>
     </td>
-  </tr>
-  <tr>
     <td align="center">
       <a href="#" title="Marcos Vinicius">
-        <img src="https://avatars.githubusercontent.com/u/82077382?v=4" width="100px;" alt="Foto do Marcos Vinicius no GitHub"/><br>
+        <img src="https://avatars.githubusercontent.com/u/82077382?v=4" width="100px;" alt="Marcos Vinicius"/><br>
         <sub><b>Marcos Vinicius</b></sub>
       </a>
     </td>
     <td align="center">
       <a href="#" title="Emilly Caroline">
-        <img src="https://avatars.githubusercontent.com/u/93013035?v=4" width="100px;" alt="Foto da Emilly Caroline no GitHub"/><br>
+        <img src="https://avatars.githubusercontent.com/u/93013035?v=4" width="100px;" alt="Emilly Caroline"/><br>
         <sub><b>Emilly Caroline</b></sub>
       </a>
     </td>
     <td align="center">
       <a href="#" title="Izaac Junior">
-        <img src="https://avatars.githubusercontent.com/u/213531460?v=4" width="100px;" alt="Foto do Izaac Junior no GitHub"/><br>
+        <img src="https://avatars.githubusercontent.com/u/213531460?v=4" width="100px;" alt="Izaac Junior"/><br>
         <sub><b>Izaac Junior</b></sub>
       </a>
     </td>
   </tr>
 </table>
+
+
 
 
 
