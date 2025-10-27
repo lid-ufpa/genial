@@ -106,7 +106,7 @@ class TSPACO:
 
             self.metricas.append(
                 {
-                    "iteracao": iteracao,
+                    "iteracao": iteracao + 1,
                     "melhor_custo": round(min(custos), 2),
                     "pior_custo": round(max(custos), 2),
                     "custo_medio": round(media, 2),
@@ -127,5 +127,4 @@ class TSPACO:
         return caminho, self.melhor_custo
 
     def obter_metricas(self):
-        """Retorna métricas da execução do ACO como DataFrame."""
         return pd.DataFrame(self.metricas)
