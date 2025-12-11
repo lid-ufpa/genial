@@ -131,7 +131,7 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
     <td align="center">
       <a href="#" title="Helder Matos">
         <img src="https://avatars.githubusercontent.com/u/17325561?v=4" width="100px;" alt="Helder Matos"/><br>
-        <sub><b>Helder Matos</b></sub>
+        <sub><b>Helder Matos</b>
       </a>
     </td>
     <td align="center">
