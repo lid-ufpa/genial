@@ -50,15 +50,15 @@ Para instalar o **Curso-Anônimo**, siga estas etapas:
 Linux e macOS:
 
 ```bash
-git clone git@github.com:lid-ufpa/<nome-do-repositorio>.git
+git clone git@github.com:usuario/<nome-do-repositorio>.git
 cd <nome-do-repositorio>
-
+pip install -r requirements.txt
 ```
 
 Windows:
 
 ```PowerShell
-git clone https://github.com/usuario/<nome-do-repositorio>.git
+git clone git@github.com:usuario/<nome-do-repositorio>.git
 cd <nome-do-repositorio>
 pip install -r requirements.txt
 ```

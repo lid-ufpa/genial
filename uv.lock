@@ -378,7 +378,7 @@ wheels = [
 ]
 
 [[package]]
-name = "genial"
+name = "bioinspirados"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
